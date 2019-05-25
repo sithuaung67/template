@@ -66,6 +66,11 @@
                         <i class="nav-icon fa fa-chart-area"></i>Add City
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="{{route('organization')}}" class="nav-link">
+                        <i class="nav-icon fa fa-chart-area"></i>Organization
+                    </a>
+                </li>
 
 
 

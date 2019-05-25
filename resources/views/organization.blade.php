@@ -7,7 +7,7 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                <span class="fa fa-list"></span> City
+                <span class="fa fa-list"></span> Organization
             </h1>
         </section>
 
@@ -16,7 +16,7 @@
             <!-- Small boxes (Stat box) -->
             <div class="row">
                 <div class="col-md-8">
-                    <select class="btn btn-outline-dark btn-sm mb-2" style="width: 140px" id="organization" name="organization" >
+                    <select class="btn btn-outline-dark btn-lg mb-2"  id="organization" name="organization" >
                         <option>Organization</option>
                         <option>NGO</option>
                         <option>Government</option>
@@ -25,6 +25,8 @@
                     </select>
                 </div>
             </div>
+        </section>
+    </div>
 
 @endsection
 
@@ -40,4 +42,4 @@
     <script src="/dist/plugins/chart.js/Chart.min.js"></script>
     <script src="/dist/js/demo.js"></script>
     <script src="/dist/js/pages/dashboard3.js"></script>
-@stop
+@endsection

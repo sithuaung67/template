@@ -86,7 +86,7 @@ class DashboardController extends Controller
     public function getOrganization()
     {
         $cit = Organization::OrderBy('id', 'desc')->get();
-        return view('addCity')->with(['cit' => $cit]);
+        return view('organization')->with(['cit' => $cit]);
     }
 
 
